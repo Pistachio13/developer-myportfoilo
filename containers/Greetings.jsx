@@ -14,8 +14,8 @@ const Greetings = () => {
 	return (
 		<main>
 			<div className="position-relative">
-				<section className="section section-lg section-shaped pb-250">
-					<div className="shape shape-style-1 bg-gradient-info">
+				<section className="section section-lg section-shaped pt-100 pb-200">
+					<div className="shape shape-style-1 bg-gradient-dark">
 						<span />
 						<span />
 						<span />
@@ -26,11 +26,11 @@ const Greetings = () => {
 						<span />
 						<span />
 					</div>
-					<Container className="py-lg-md d-flex">
+					<Container className="py-xl-md d-flex">
 						<div className="col px-0">
 							<Row>
-								<Col lg="6">
-									<h1 className="display-3 text-white">
+								<Col lg="6" >
+									<h1 className="display-3 text-white pt-100">
 										{greetings.title + " "}
 									</h1>
 									<p className="lead text-white">
@@ -47,13 +47,13 @@ const Greetings = () => {
 												<i className="fa fa-file" />
 											</span>
 											<span className="btn-inner--text">
-												See My Resume
+												Full Resume
 											</span>
 										</Button>
 									</div>
 								</Col>
 								<Col lg="6">
-									<GreetingLottie animationPath="/lottie/coding.json" />
+									<GreetingLottie animationPath="/lottie/developer.json" />
 								</Col>
 							</Row>
 						</div>
