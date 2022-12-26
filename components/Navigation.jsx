@@ -78,9 +78,64 @@ const Navigation = () => {
 								</Row>
 							</div>
 							<Nav
-								className="align-items-lg-center ml-lg-auto"
+								className="text-align-items-lg-center ml-lg-auto"
 								navbar
 							>
+								{socialLinks.home && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="Home"
+											href={socialLinks.home}
+										>
+											<p className="align-center">Home</p>
+										</NavLink>
+									</NavItem>
+								)}	
+								{socialLinks.skills && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="Skills"
+											href={socialLinks.skills}
+										>
+											<p className="align-center">Skills</p>
+										</NavLink>
+									</NavItem>
+								)}
+								{socialLinks.education && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="education"
+											href={socialLinks.education}
+										>
+											<p className="align-center">Education</p>
+										</NavLink>
+									</NavItem>
+								)}	
+								{socialLinks.experience && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="experience"
+											href={socialLinks.experience}
+										>
+											<p className="align-center">Experience</p>
+										</NavLink>
+									</NavItem>
+								)}
+								{socialLinks.projects && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="projects"
+											href={socialLinks.projects}
+										>
+											<p className="align-center">Projects</p>
+										</NavLink>
+									</NavItem>
+								)}
 								{socialLinks.facebook && (
 									<NavItem>
 										<NavLink
@@ -139,7 +194,7 @@ const Navigation = () => {
 											target="_blank"
 										>
 											<i className="fa fa-linkedin" />
-											<span className="nav-link-inner--text d-lg-none ml-2">
+											<span className="nav-link-inner--text d-lg-none ml-4">
 												Linkedin
 											</span>
 										</NavLink>

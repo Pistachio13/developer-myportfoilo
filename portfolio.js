@@ -6,7 +6,7 @@ export const greetings = {
 	description:
 		"Welcome to my portfolio page. I'm a Full Stack web developer having an experience of web applications with React.js, Node.js, Express.js and MongoDB",
 	resumeLink:
-		"https://drive.google.com/file/d/19d5Okjkz6kY3c-NDGKpYShAcPVRVs8Pt/view?usp=share_link",
+		"https://drive.google.com/file/d/1Kz5uPrqDFxeabAnRfoYQZftm9bne_LCh/view?usp=sharing",
 };
 
 export const openSource = {
@@ -16,7 +16,11 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	url: "https://Pistachio13.github.io/",
+	home: "#home",
+	skills: "#skills",
+	education: "#education",
+	experience: "#exp",
+	projects: "#projects",
 	linkedin: "https://www.linkedin.com/in/Pithaya/",
 	github: "https://github.com/Pistachio13",
 };
@@ -40,6 +44,9 @@ export const skillsSection = {
 				(
 					"- Managing database with MongoDB -"
 				),
+				(
+					"- Learning Go, TypeScript and Java in progress..... -"
+				),
 			],
 			softwareSkills: [
 				{
@@ -49,6 +56,10 @@ export const skillsSection = {
 				{
 					skillName: "CSS-3",
 					fontAwesomeClassname: "vscode-icons:file-type-css",
+				},
+				{
+					skillName: "Python",
+					fontAwesomeClassname: "vscode-icons:file-type-python",
 				},
 				{
 					skillName: "JavaScript",
@@ -63,10 +74,6 @@ export const skillsSection = {
 					fontAwesomeClassname: "vscode-icons:file-type-node",
 				},
 				{
-					skillName: "MongoDB",
-					fontAwesomeClassname: "vscode-icons:file-type-mongo",
-				},
-				{
 					skillName: "Go",
 					fontAwesomeClassname: "vscode-icons:file-type-go",
 				},
@@ -78,6 +85,14 @@ export const skillsSection = {
 				{
 					skillName: "Nestjs",
 					fontAwesomeClassname: "vscode-icons:file-type-nestjs",
+				},
+				{
+					skillName: "MongoDB",
+					fontAwesomeClassname: "vscode-icons:file-type-mongo",
+				},
+				{
+					skillName: "SQLite",
+					fontAwesomeClassname: "vscode-icons:file-type-sqlite",
 				},
 				{
 					skillName: "Git",
@@ -148,16 +163,28 @@ export const projects = [
 		name: "FitGen",
 		desc: "Developed an web application using MERN stack that allows user to add personal exercises programs.",
 		github: "https://github.com/Pistachio13/FitGen-JSD3",
+		link: "https://jsd-fitgen-frontend-8jfgnko5q-krit357.vercel.app",
 	},
 	{
 		name: "Jammming board",
 		desc: "Added your playlists with Spotify API",
 		github: "https://github.com/Pistachio13/jammmingSpotifyApi",
+		link: "https://jammming-spotify-api.vercel.app",
 	},
 	{
 		name: "Nest Clinic",
 		desc: "Inserted and stored patient data in clinic. learned TypeScript and Nest.js framework through project",
 		github: "https://github.com/Pistachio13/clinic-nestjs",
+	},
+	{
+		name: "Go Clinic API",
+		desc: "Learned basic GO language through personal project about clinic management with SQL database.",
+		github: "https://github.com/Pistachio13/go-clinic-api",
+	},
+	{
+		name: "Faii Ecommerce",
+		desc: "Collaborated project with my friend, Glue shop web application for customers. developed by Vue.js, Express.js and SQL database",
+		github: "https://github.com/mikeGLA/Faii_Ecommerce_n_Co",
 	},
 ];
 

@@ -8,7 +8,7 @@ import ProjectsCard from "../components/ProjectsCard";
 const Projects = () => {
 	return projects && (
 		<section className="section section-lg bg-gradient-dark">
-			<Container>
+			<Container id="projects">
 				<div className="d-flex p-4">
 					<div>
 						<div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">

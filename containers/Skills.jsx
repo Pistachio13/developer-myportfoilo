@@ -7,7 +7,7 @@ import { skillsSection } from "../portfolio";
 
 const Skills = () => {
 	return skillsSection && (
-		<Container className="text-center my-5 section section-lg">
+		<Container id="skills" className="text-center my-5 section section-lg">
 			<h1 className="h1">{skillsSection.title}</h1>
 			<p className="lead">{skillsSection.subTitle[0]}</p>
 			<p className="lead">{skillsSection.subTitle[1]}</p>

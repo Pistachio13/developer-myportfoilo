@@ -12,7 +12,7 @@ const Greetings = () => {
 		document.scrollingElement.scrollTop = 0;
 	});
 	return (
-		<main>
+		<main id="home">
 			<div className="position-relative">
 				<section className="section section-lg section-shaped pt-100 pb-200">
 					<div className="shape shape-style-1 bg-gradient-dark">
@@ -42,10 +42,8 @@ const Greetings = () => {
 											className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
 											color="default"
 											href={greetings.resumeLink}
+											target="_blank"
 										>
-											<span className="btn-inner--icon mr-1">
-												<i className="fa fa-file" />
-											</span>
 											<span className="btn-inner--text">
 												Full Resume
 											</span>
